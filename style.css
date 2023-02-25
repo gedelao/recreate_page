@@ -1,0 +1,372 @@
+html,
+body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.container-fluid {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.header {
+    background-color: rgb(121, 154, 79);
+    color: white;
+    height: 8rem;
+}
+
+.header h3 {
+    font-size: 2rem;
+}
+
+.title {
+    text-align: center;
+    color: #f1f1f1;
+    font-weight: 700;
+}
+
+.first {
+    padding-top: 2rem;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.button {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+}
+
+.grid-item {
+    background-color: #f1f1f1;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.remaining {
+    text-align: center;
+    margin-top: 3rem;
+    padding-bottom: 3rem;
+    color: red;
+}
+
+#noThanksText p {
+    display: none;
+}
+
+.elite {
+    border: solid 1px;
+    border-bottom: none;
+    box-shadow: 3px 3px 0 0 grey;
+}
+
+.elite1 {
+    border-top: 0;
+}
+
+.elite2 {
+    border-bottom: solid;
+    border-top: 0;
+}
+
+.empty-item {
+    visibility: hidden;
+}
+
+.glyphicon-ok {
+    color: green;
+}
+
+.glyphicon-remove {
+    color: red;
+}
+
+.fa-xmark {
+    color: red;
+}
+
+.eliteBlue {
+    background-color: rgb(242, 247, 254);
+}
+
+.remaining {
+    font-size: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-container {
+    background: url("/images/business-strategy-success-target-goals 1.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+.modal-body {
+    width: 100%;
+    height: 100%;
+}
+
+.modal-footer button {
+    width: 100%;
+}
+
+.button {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    border-radius: 3px;
+}
+
+.grid-container1 {
+    display: none;
+}
+
+.bbc {
+    margin-top: 4rem;
+    height: 5rem;
+}
+
+.color {
+    background-color: rgb(238, 245, 254);
+}
+
+.grid1 {
+    margin: 1rem;
+}
+
+.grid2 {
+    margin: 1rem;
+}
+
+.grid1 .grid-item {
+    height: auto;
+}
+
+.grid2 .grid-item {
+    height: auto;
+}
+
+.grid-item-price {
+    height: auto;
+    width: auto;
+}
+
+.grid-item-price h5 {
+    font-size: 1rem;
+}
+
+.grid-item-price button {
+    background-color: rgb(254, 162, 48);
+    border: 1px;
+    border-radius: 3px;
+    color: white;
+    height: 4rem;
+    width: 18rem;
+}
+
+.grid-item-price2 button {
+    background-color: white;
+    border: 2px solid orange;
+    color: orange;
+    height: 4rem;
+    width: 18rem;
+}
+
+.grid-item-price div,
+.grid-item-price2 div {
+    margin-top: 2rem;
+}
+
+.arrow {
+    display: flex;
+}
+
+.direction {
+    padding-left: 5rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .grid-container {
+        display: none;
+    }
+
+    .btn {
+        width: auto;
+        height: auto;
+    }
+
+    .inner-container {
+        height: auto;
+        width: auto;
+    }
+
+    .fa-check .fa-xmark {
+        display: none;
+    }
+
+    .button img {
+        width: auto;
+        height: auto;
+    }
+
+    #noThanksText p {
+        display: block;
+    }
+}
+
+footer a {
+    color: gray;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 600px) {
+    .grid-container1 {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 2rem;
+    }
+
+    .bbc {
+        margin-top: 4rem;
+        height: 5rem;
+    }
+
+    .grid-item {
+        border: solid 1px;
+    }
+
+    .color {
+        background-color: rgb(238, 245, 254);
+    }
+
+    .grid1,
+    .grid2 {
+        border: solid 1px;
+        margin: 1rem;
+    }
+
+    .grid1 .grid-item,
+    .grid2 .grid-item {
+        height: auto;
+    }
+
+    .grid-item-price,
+    .grid-item-price2 {
+        height: auto;
+        width: auto;
+    }
+
+    .grid-item-price h5 {
+        font-size: 1rem;
+    }
+
+    .grid-item-price button {
+        background-color: rgb(254, 162, 48);
+        border: 1px;
+        border-radius: 3px;
+        color: white;
+        height: 4rem;
+        width: 18rem;
+    }
+
+    .grid-item-price div,
+    .grid-item-price2 div {
+        margin-top: 2rem;
+    }
+
+    .arrow {
+        display: flex;
+    }
+
+    .direction {
+        padding-left: 5rem;
+    }
+
+    .popular {
+        transform: rotate(5deg);
+    }
+
+    #noThanksText p {
+        display: block;
+    }
+
+    .button img {
+        width: auto;
+        height: auto;
+    }
+}
+
+@media (max-width: 576px) {
+    .header {
+        height: auto;
+    }
+
+    .header h3 {
+        font-size: 1em;
+    }
+
+    .title h1 {
+        font-size: 2rem;
+    }
+
+    .title h2 {
+        font-size: 1.5rem;
+    }
+
+    .title h3 {
+        font-size: 1rem;
+    }
+
+    .grid-container {
+        display: none;
+    }
+
+    .grid-item {
+        font-size: 1.5rem;
+    }
+
+    #noThanksText p {
+        display: block;
+    }
+
+    .image-lg {
+        width: 200px;
+        height: 200px;
+    }
+
+    .title-lg {
+        font-size: 1.5rem;
+        line-height: 1.2;
+    }
+
+    .subtitle-md {
+        font-size: 1rem;
+        line-height: 1.2;
+    }
+
+    .description-sm {
+        font-size: 0.8rem;
+        line-height: 1.2;
+    }
+
+    .first img {
+        width: 100%;
+    }
+}
